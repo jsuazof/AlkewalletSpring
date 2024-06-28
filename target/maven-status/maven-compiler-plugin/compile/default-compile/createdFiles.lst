@@ -1,0 +1,12 @@
+com/alkewallet6/service/IUserService.class
+com/alkewallet6/security/WebSecurityConfig.class
+com/alkewallet6/model/Account.class
+com/alkewallet6/Alkewallet6Application.class
+com/alkewallet6/repository/UserRepository.class
+com/alkewallet6/service/IAccountService.class
+com/alkewallet6/service/UserService.class
+com/alkewallet6/ServletInitializer.class
+com/alkewallet6/service/AccountService.class
+com/alkewallet6/repository/AccountRepository.class
+com/alkewallet6/controller/UserController.class
+com/alkewallet6/model/UserEntity.class

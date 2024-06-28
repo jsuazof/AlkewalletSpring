@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/static/CSS/home.css" rel="stylesheet">
+    <title>Menú Principal</title>
+</head>
+<body>
+<header>
+    <a id="close" class="btn"><i class='bx bx-log-out'></i><p>Salir</p></a>
+</header>
+<main class="container">
+    <section>
+        <div id="header">
+            <h2>Menú Principal</h2>
+            <p>Bienvenido <span id="userNameHeader" th:text="${userEntity.user_name}">User</span></p>
+        </div>
+        <div class="form-group" >
+            <p>Tienes en tu Cuenta: </p>
+            <h3 id="h3">$ <span id="balanceMenu" th:text="${account.balance}">0</span></h3>
+            <a id="hideButton" title="Ocultar Saldo"><i class='bx bx-hide'></i></a>
+        </div>
+        <div id="button">
+            <a class="btn" id="deposit">Depositar</a>
+            <a class="btn" id="sendMoney">Enviar Dinero</a>
+            <a class="btn" id="transaction">Últimos Movimientos</a>
+        </div>
+        <div id="message">
+            <h2 id="messageText"></h2>
+        </div>
+    </section>
+</main>
+<footer>
+    <nav class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon"><box-icon name='home'></box-icon></span>
+                    <span class="text">Home</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><box-icon name='money-withdraw'></box-icon></span>
+                    <span class="text">Depositar</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><box-icon name='transfer'></box-icon></span>
+                    <span class="text">Transferir</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><box-icon name='history'></box-icon></span>
+                    <span class="text">Movimientos</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><box-icon name='log-out'></box-icon></span>
+                    <span class="text">Salir</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </nav>
+</footer>
+<!-- Bootstrap -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="/static/JS/"></script>
+</body>
+</html>

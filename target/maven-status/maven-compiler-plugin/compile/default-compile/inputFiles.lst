@@ -1,0 +1,13 @@
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/Alkewallet6Application.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/ServletInitializer.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/connection/DBConnection.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/controller/UserController.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/model/Account.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/model/UserEntity.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/repository/AccountRepository.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/repository/UserRepository.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/security/WebSecurityConfig.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/service/AccountService.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/service/IAccountService.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/service/IUserService.java
+/home/golden-dev/Desktop/AlkeWallet6-main./AlkeWallet6-main/src/main/java/com/alkewallet6/service/UserService.java
