@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 *{
@@ -9,7 +8,7 @@
 }
 
 body{
-  background-image: url(/WalletDigitalV2/assets/IMG/background.jpeg);
+  background-image: url('/img/background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -18,6 +17,10 @@ body{
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+}
+
+header{
+  padding-bottom: 100px;
 }
 
 .container{
@@ -55,21 +58,29 @@ header a i{
 #header p{
   display: contents;
 }
-.form-group{
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content:center;
-  gap: 15px;
+.row{
+    justify-content: center;
 }
-.form-group #hideButton{
+.d-flex {
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  white-space: nowrap;
+}
+.col-md-6 p {
+  margin-right: 300px;
+}
+.col-md-3 h3 {
+  margin-left: -190px;
+}
+#hideButton i {
   font-size: 25px;
-  margin: 0px 15px;
-}
-.form-group #hideButton:hover{
-  color: #e8f008;
+  transition: color 0.5s ease;
+  color: white;
   cursor: pointer;
-  transform: scale(1.5);
+}
+#hideButton:hover i {
+  color: #919432;
 }
 .container #button{
   display: flex;
@@ -86,6 +97,16 @@ header a i{
   background-color: #919432;
   color: white;
   transform: scale(1.1);
+}
+
+.navigation {
+  position: fixed; /* Make the navigation menu fixed */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Position it at the left edge of the viewport */
+  width: 100%; /* Make it span the entire width of the viewport */
+  z-index: 100; /* Ensure it appears above other elements */
+  background-color: #333; /* Set a background color */
+  padding: 10px 0; /* Add some padding */
 }
 
 @media screen and (max-width: 600px) {
