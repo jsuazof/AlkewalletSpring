@@ -18,12 +18,10 @@
             <form id="formCreateAccount" th:action="@{/registerUser}" th:object="${userDTO}" method="post">
                 <div class="parraf-create">
                     
-                    
-                    <hr />
                 </div>
-                <h2>Crea una cuenta</h2>
-                <span>Ingrese sus datos aquí</span>
-                <input type="text" id="name" name="name" th:field="*{name}" placeholder="Nombre Completo" required />
+                <h2>Formulario  de ingreso</h2>
+                
+                <input type="text" id="name" name="name" th:field="*{name}" placeholder="Nombre Apellido" required />
                 <input type="text" id="username" name="username" th:field="*{username}" placeholder="Nombre Usuario" required />
                 <input type="email" id="email" name="email" th:field="*{email}" placeholder="Email" required />
                 <input
@@ -34,7 +32,7 @@
                         placeholder="Contraseña"
                         pattern="[0-9]{6}"
                         inputmode="numeric"
-                        title="Debe solo ingresar una Contraseña de 6 Dígitos."
+                        title="Debe ingresar una Contraseña de 6 Dígitos."
                         required />
                 <input
                         type="password"
@@ -44,7 +42,7 @@
                         placeholder="Confirme Contraseña"
                         pattern="[0-9]{6}"
                         inputmode="numeric"
-                        title="Debe solo ingresar una Contraseña de 6 Dígitos."
+                        title="Debe ingresar una Contraseña de 6 Dígitos."
                         required />
                 <button type="submit" id="signUpButton" class="btn">
                     Crear Cuenta
@@ -61,7 +59,7 @@
         <div class="form-container sign-in" id="signin">
             <form id="formLogin" th:action="@{/login}" th:object="${loginDTO}" method="post">
                 <div class="parraf-login">
-                    <h2>¡Bienvenido a AlkeWallet!</h2>
+                    <h1>¡Bienvenido a AlkeWallet!</h1>
                     <h4>Dinero digital a tu alcance.</h4>
                     <hr />
                 </div>
@@ -76,12 +74,12 @@
                         placeholder="Contraseña"
                         pattern="[0-9]{6}"
                         inputmode="numeric"
-                        title="Debe solo ingresar una Contraseña de 6 Dígitos."
+                        title="Debe ingresar una Contraseña de 6 Dígitos."
                         required />
                 <a href="#">Olvidó su Clave?</a>
                 <button type="submit" id="signInButton">Ingresar</button>
                 <div id="buttonRegisterDiv">
-                    <span>Si eres nuevo. Regístrate<a id="buttonRegister">aquí!</a></span >
+                    <span>Si eres nuevo. Regístrate <a id="buttonRegister">aquí!</a></span >
                 </div>
                 <div th:if="${loginError}" class="error">Nombre de usuario o contraseña incorrectos.</div>
                 <div th:if="${message}">
@@ -99,7 +97,7 @@
                     </button>
                 </div>
                 <div class="toggle-panel toggle-right">
-                    <h1>AlkeWallet</h1>
+                    <h2>AlkeWallet</h2>
                     <p>
                         Regístrate y disfruta de una forma más segura
                         y completa de administrar tu dinero.
