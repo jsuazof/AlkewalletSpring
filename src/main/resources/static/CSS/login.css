@@ -61,6 +61,7 @@ body{
     padding: 10px 45px;
     border: 1px solid transparent;
     border-radius: 8px;
+    border-color:#fff;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -79,14 +80,13 @@ body{
     color: white;
 }
 .container button.hidden:hover{
-    background-color: #324f94;
+    background-color: #7fdaea;
     color: black;
     transform: scale(1.2);
 }
 
 .container form{
-    background-color: #08c9f0cf;
-    
+    background-color: #005d92fb;   
     color: white;
     display: flex;
     align-items: center;
@@ -168,9 +168,8 @@ body{
 }
 
 .toggle{
-    background-color: #08c9f0cf;
+    background-color: #089bf0c9;
     height: 100%;
-   
     color: black;
     position: relative;
     left: -100%;
@@ -323,14 +322,13 @@ body{
     #buttonCreate,#buttonRegister{
         color: #088bf0;
         font-weight: bold;
-        color: #088bf0;
         cursor: pointer;
         font-weight: bold;
         margin-top: 5px;
         text-decoration: none;
     }
     #buttonCreate:hover, #buttonRegister:hover{
-        color:#326e94;
+        color:#7fdaea;
     }
     .parraf-login,.parraf-create{
         visibility: visible;

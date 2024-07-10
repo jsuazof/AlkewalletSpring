@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +15,7 @@
 </head>
 <body>
 <header>
+    
     <nav class="navigation">
         <ul>
             <li class="list active">
@@ -34,7 +35,7 @@
             <li class="list">
                 <a th:href="@{/withdraw/{id}(id=${user.id})}">
                     <span class="icon"><box-icon name='money' color='#f5f2f2'></box-icon></span>
-                    <span class="text">Retiro</span>
+                    <span class="text">Retirar</span>
                     <span class="circle"></span>
                 </a>
             </li>
