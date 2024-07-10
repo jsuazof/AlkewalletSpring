@@ -86,7 +86,7 @@ body{
 }
 
 .container form{
-    background-color: #005d92fb;   
+    background-color: #089bf0c9;   
     color: white;
     display: flex;
     align-items: center;
@@ -170,6 +170,7 @@ body{
 .toggle{
     background-color: #089bf0c9;
     height: 100%;
+
     color: black;
     position: relative;
     left: -100%;

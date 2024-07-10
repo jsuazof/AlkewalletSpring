@@ -7,6 +7,9 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../static/css/transfer.css" th:href="@{/css/transfer.css}"/>
     <link rel="stylesheet" type="text/css" href="../static/css/menu.css" th:href="@{/css/menu.css}"/>
@@ -71,10 +74,10 @@
                     <span th:text="${contact.name}" class="ml-2">Nombre-Usuario</span>
                 </label>
             </div>
-            <button type="submit" id="buttonSelectContact" class="btn btn-primary mt-3">Seleccionar</button>
+            <button type="submit" id="buttonSelectContact" class="btn btn-info mt-3">Seleccionar</button>
             <button type="submit" id="buttonEliminatedContact" name="deleteContact" value="delete" class="btn btn-danger mt-3">Eliminar</button>
         </form>
-        <button id="buttonAddContact" class="btn btn-success mt-3" onclick="document.getElementById('addContactModal').style.display='block'">Agregar</button>
+        <button id="buttonAddContact" class="btn btn-info mt-3" onclick="document.getElementById('addContactModal').style.display='block'">Agregar</button>
         <div th:if="${message}">
             <div class="alert alert-success mt-3" th:text="${message}"></div>
         </div>
@@ -101,8 +104,8 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" id="addNewContact" class="btn btn-success">Agregar</button>
-                        <button type="reset" id="butttonResetContact" class="btn btn-danger">Limpiar</button>
+                        <button type="submit" id="addNewContact" class="btn btn-info">Agregar</button>
+                        <button type="reset" id="butttonResetContact" class="btn btn-info">Limpiar</button>
                     </div>
                 </form>
             </div>

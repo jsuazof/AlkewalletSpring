@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100...900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -33,7 +33,7 @@ header{
   overflow: hidden;
   width: auto;
   height: auto;
-  color: rgb(12, 12, 12);
+  color: rgb(142, 194, 169);
   padding: 30px;
   margin: auto;
   margin-top: 14px;
@@ -46,12 +46,12 @@ header{
 }
 header a i{
   font-size: 25px;
-  color: rgb(13, 13, 13);
+  color: rgb(255, 255, 255);
 }
 
 #header{
   text-align: center;
-  color: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 #header p{
@@ -75,11 +75,11 @@ header a i{
 #hideButton i {
   font-size: 25px;
   transition: color 0.5s ease;
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 #hideButton:hover i {
-  color: #32948f;
+  color: #ffffff;
 }
 .container #button{
   display: flex;

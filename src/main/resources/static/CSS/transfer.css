@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body{
@@ -34,8 +34,8 @@ header{
   box-shadow: 20px 15px 40px black;
   position: relative;
   overflow: auto;
-  max-width: 100%;
-  max-height: 100vh;
+  max-width: auto;
+  max-height: auto;
   color: white;
   padding: 30px;
   margin: auto;
@@ -105,7 +105,7 @@ header a i{
 }
 #transfer h3{
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 #sendMoney{
   flex: 3;
